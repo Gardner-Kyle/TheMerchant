@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,15 @@
 		D21B6C5D24EF208F00053490 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D21B6C5B24EF208F00053490 /* LaunchScreen.storyboard */; };
 		D21B6C6824EF209000053490 /* The_MerchantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21B6C6724EF209000053490 /* The_MerchantTests.swift */; };
 		D21B6C7324EF209000053490 /* The_MerchantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21B6C7224EF209000053490 /* The_MerchantUITests.swift */; };
+		D26ECEB324FFFC6700EEA775 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26ECEB224FFFC6700EEA775 /* UIViewController.swift */; };
+		D296C95724F05E94009B3160 /* OrderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D296C95624F05E94009B3160 /* OrderService.swift */; };
+		D296C95D24F060AC009B3160 /* IBGSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D296C95C24F060AC009B3160 /* IBGSessionManager.swift */; };
+		D296C96024F065D8009B3160 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D296C95F24F065D8009B3160 /* Stock.swift */; };
+		D296C96224F06E87009B3160 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = D296C96124F06E87009B3160 /* Global.swift */; };
+		D296C96424F0731E009B3160 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = D296C96324F0731E009B3160 /* Account.swift */; };
+		D296C96624F076E7009B3160 /* StockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D296C96524F076E7009B3160 /* StockTableViewCell.swift */; };
+		D2D70B0024F057440081CF0D /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D2D70AFF24F057440081CF0D /* Podfile */; };
+		E5B183078699E6AD3B225712 /* libPods-The Merchant.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 288E38C9086C9455B462FC58 /* libPods-The Merchant.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		288E38C9086C9455B462FC58 /* libPods-The Merchant.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-The Merchant.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D678F50C47688104BE36CE7 /* Pods-The Merchant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Merchant.release.xcconfig"; path = "Target Support Files/Pods-The Merchant/Pods-The Merchant.release.xcconfig"; sourceTree = "<group>"; };
 		D21B6C4A24EF208F00053490 /* The Merchant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Merchant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D21B6C4D24EF208F00053490 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D21B6C4F24EF208F00053490 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +62,15 @@
 		D21B6C6E24EF209000053490 /* The MerchantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The MerchantUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D21B6C7224EF209000053490 /* The_MerchantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_MerchantUITests.swift; sourceTree = "<group>"; };
 		D21B6C7424EF209000053490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D26ECEB224FFFC6700EEA775 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		D296C95624F05E94009B3160 /* OrderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderService.swift; sourceTree = "<group>"; };
+		D296C95C24F060AC009B3160 /* IBGSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBGSessionManager.swift; sourceTree = "<group>"; };
+		D296C95F24F065D8009B3160 /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		D296C96124F06E87009B3160 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		D296C96324F0731E009B3160 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		D296C96524F076E7009B3160 /* StockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockTableViewCell.swift; sourceTree = "<group>"; };
+		D2D70AFF24F057440081CF0D /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		DD7767C015779BF047B8C142 /* Pods-The Merchant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Merchant.debug.xcconfig"; path = "Target Support Files/Pods-The Merchant/Pods-The Merchant.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5B183078699E6AD3B225712 /* libPods-The Merchant.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +99,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2ADC9AE926211C64CA950BBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2D70AFF24F057440081CF0D /* Podfile */,
+				288E38C9086C9455B462FC58 /* libPods-The Merchant.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4F9942CC53EF9F4A179EEA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD7767C015779BF047B8C142 /* Pods-The Merchant.debug.xcconfig */,
+				4D678F50C47688104BE36CE7 /* Pods-The Merchant.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D21B6C4124EF208F00053490 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +124,8 @@
 				D21B6C6624EF209000053490 /* The MerchantTests */,
 				D21B6C7124EF209000053490 /* The MerchantUITests */,
 				D21B6C4B24EF208F00053490 /* Products */,
+				A4F9942CC53EF9F4A179EEA4 /* Pods */,
+				2ADC9AE926211C64CA950BBE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,9 +142,12 @@
 		D21B6C4C24EF208F00053490 /* The Merchant */ = {
 			isa = PBXGroup;
 			children = (
+				D2D70AFA24F052D70081CF0D /* ViewControllers */,
+				D296C95B24F0609D009B3160 /* Helpers */,
+				D296C95524F05E7F009B3160 /* Services */,
+				D296C95E24F065CB009B3160 /* Models */,
 				D21B6C4D24EF208F00053490 /* AppDelegate.swift */,
 				D21B6C4F24EF208F00053490 /* SceneDelegate.swift */,
-				D21B6C5124EF208F00053490 /* ViewController.swift */,
 				D21B6C5324EF208F00053490 /* Main.storyboard */,
 				D21B6C5924EF208F00053490 /* Assets.xcassets */,
 				D21B6C5B24EF208F00053490 /* LaunchScreen.storyboard */,
@@ -131,6 +175,42 @@
 			path = "The MerchantUITests";
 			sourceTree = "<group>";
 		};
+		D296C95524F05E7F009B3160 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D296C95624F05E94009B3160 /* OrderService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D296C95B24F0609D009B3160 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D296C95C24F060AC009B3160 /* IBGSessionManager.swift */,
+				D26ECEB224FFFC6700EEA775 /* UIViewController.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D296C95E24F065CB009B3160 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D296C95F24F065D8009B3160 /* Stock.swift */,
+				D296C96124F06E87009B3160 /* Global.swift */,
+				D296C96324F0731E009B3160 /* Account.swift */,
+				D296C96524F076E7009B3160 /* StockTableViewCell.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D2D70AFA24F052D70081CF0D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D21B6C5124EF208F00053490 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D21B6C7724EF209000053490 /* Build configuration list for PBXNativeTarget "The Merchant" */;
 			buildPhases = (
+				C59D838DD67CEEDF64E01BC8 /* [CP] Check Pods Manifest.lock */,
 				D21B6C4624EF208F00053490 /* Sources */,
 				D21B6C4724EF208F00053490 /* Frameworks */,
 				D21B6C4824EF208F00053490 /* Resources */,
+				7F540068370F1D12C06C1DB9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -237,6 +319,7 @@
 			files = (
 				D21B6C5D24EF208F00053490 /* LaunchScreen.storyboard in Resources */,
 				D21B6C5A24EF208F00053490 /* Assets.xcassets in Resources */,
+				D2D70B0024F057440081CF0D /* Podfile in Resources */,
 				D21B6C5524EF208F00053490 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,12 +340,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7F540068370F1D12C06C1DB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-The Merchant/Pods-The Merchant-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-The Merchant/Pods-The Merchant-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-The Merchant/Pods-The Merchant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59D838DD67CEEDF64E01BC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-The Merchant-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D21B6C4624EF208F00053490 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D296C96624F076E7009B3160 /* StockTableViewCell.swift in Sources */,
+				D296C96224F06E87009B3160 /* Global.swift in Sources */,
 				D21B6C5224EF208F00053490 /* ViewController.swift in Sources */,
+				D26ECEB324FFFC6700EEA775 /* UIViewController.swift in Sources */,
+				D296C95D24F060AC009B3160 /* IBGSessionManager.swift in Sources */,
+				D296C96024F065D8009B3160 /* Stock.swift in Sources */,
+				D296C95724F05E94009B3160 /* OrderService.swift in Sources */,
+				D296C96424F0731E009B3160 /* Account.swift in Sources */,
 				D21B6C4E24EF208F00053490 /* AppDelegate.swift in Sources */,
 				D21B6C5024EF208F00053490 /* SceneDelegate.swift in Sources */,
 				D21B6C5824EF208F00053490 /* The_Merchant.xcdatamodeld in Sources */,
@@ -436,6 +568,7 @@
 		};
 		D21B6C7824EF209000053490 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD7767C015779BF047B8C142 /* Pods-The Merchant.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +587,7 @@
 		};
 		D21B6C7924EF209000053490 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D678F50C47688104BE36CE7 /* Pods-The Merchant.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
