@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Instabug (9.1.2)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.9.0)
+  - Instabug
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Instabug
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Instabug: a638cb57c8768b102bab2930b68ed81f2d7ab877
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: 8e02b0e699508f95737e8491fe567fe8cf658684
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,6 @@
+module Pods_The_Merchant {
+  umbrella header "Pods-The Merchant-umbrella.h"
+
+  export *
+  module * { export * }
+}
